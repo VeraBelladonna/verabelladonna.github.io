@@ -4,9 +4,9 @@
 
 <p>
   {{ page.date | date_to_string }}
-  {% assign project = site.projets | where: 'short_name', page.projet | first %}
-  {% if projet %}
-    - <a href="{{ projet.url }}">{{ projet.name }}</a>
+  {% assign project = site.projects | where: 'short_name', page.project | first %}
+  {% if project %}
+    - <a href="{{ project.url }}">{{ project.name }}</a>
   {% endif %}
 </p>
 
