@@ -1,6 +1,6 @@
 ---
 layout: post
-project:   TTRPG_Character_Creator
+project: TTRPG_Character_Creator
 ---
 
 Decided to build a TTRPG character builder based on https://aurorabuilder.com/
