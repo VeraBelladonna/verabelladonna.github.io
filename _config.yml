@@ -5,9 +5,9 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "authors"
+      type: "project"
     values:
-      layout: "author"
+      layout: "project"
   - scope:
       path: ""
       type: "posts"
