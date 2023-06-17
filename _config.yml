@@ -5,7 +5,7 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "project"
+      type: "projects"
     values:
       layout: "project"
   - scope:
